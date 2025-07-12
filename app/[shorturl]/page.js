@@ -2,7 +2,8 @@ import clientPromise from "@/lib/mongodb";
 import { redirect } from "next/navigation";
 
 export default async function RedirectPage({ params }) {
-  const shorturl = params?.shorturl;
+  const awaitedParams = await params;
+  const shorturl = awaitedParams?.shorturl;
 
   if (!shorturl) {
     return (
