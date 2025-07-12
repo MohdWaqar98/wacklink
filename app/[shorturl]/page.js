@@ -3,11 +3,11 @@ import { redirect } from "next/navigation";
 
 export default async function RedirectPage({ params }) {
   const awaitedParams = await params;
-  const shorturl = awaitedParams?.shorturl ;
+  const shorturl = awaitedParams?.shorturl;
 
   if (!shorturl) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-red-100 text-red-600 font-semibold text-xl">
+      <div className="min-h-[83vh] flex items-center justify-center bg-red-100 text-red-600 font-semibold text-xl">
         ❗ Invalid short URL
       </div>
     );
