@@ -9,7 +9,7 @@ const Contact = () => {
         </h1>
 
         <p className="text-center text-lg text-gray-700 mb-8">
-          I'm always open to collaborating on exciting Java full stack projects, solving real-world problems, or just talking tech!
+          I&apos;m always open to collaborating on exciting Java full stack projects, solving real-world problems, or just talking tech!
         </p>
 
         <div className="text-gray-700 text-lg space-y-4">
