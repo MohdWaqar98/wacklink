@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "WackLink - A Wacky Link Shortener",
-  description: "A fun and quirky URL shortener",
+  title: "WackLink | Fast & Simple URL Shortener",
+  description: "Shorten your links instantly with WackLink. Fast, reliable, and easy to use.",
 };
 
 export default function RootLayout({ children }) {
