@@ -15,17 +15,18 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "WackLink | Fast & Simple URL Shortener",
-  description: "Shorten your links instantly with WackLink. Fast, reliable, and easy to use.",
+  description:
+    "Shorten your links instantly with WackLink. Fast, reliable, and easy to use.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-purple-50`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-purple-50 min-h-screen flex flex-col`}
       >
-        <Navbar/>
-        {children}
+        <Navbar />
+        <main className="flex-1">{children}</main>
         <Footer />
       </body>
     </html>

@@ -7,8 +7,10 @@ export default async function RedirectPage({ params }) {
 
   if (!shorturl) {
     return (
-      <div className="min-h-[83vh] flex items-center justify-center bg-red-100 text-red-600 font-semibold text-xl">
-        ❗ Invalid short URL
+      <div className="min-h-[83vh] sm:min-h-screen flex items-center justify-center px-4 bg-red-100">
+        <p className="text-red-600 text-center font-semibold text-lg sm:text-xl">
+          ❗ Invalid short URL
+        </p>
       </div>
     );
   }
@@ -23,8 +25,10 @@ export default async function RedirectPage({ params }) {
     redirect(found.url);
   } else {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-red-100 text-red-600 font-semibold text-xl">
-        ❌ Short URL not found!
+      <div className="min-h-[83vh] sm:min-h-screen flex items-center justify-center px-4 bg-red-100">
+        <p className="text-red-600 text-center font-semibold text-lg sm:text-xl">
+          ❌ Short URL not found!
+        </p>
       </div>
     );
   }

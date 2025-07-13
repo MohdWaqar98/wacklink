@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
   return (
-    <div className='bg-purple-700 text-white py-4 text-center bottom-0 w-full fixed'>
-      <p>&copy; 2025 WackLink. All rights reserved.</p>
-    </div>
-  )
-}
+    <footer className="bg-purple-700 text-white text-center py-4 w-full mt-auto">
+      <p className="text-sm sm:text-base px-2">
+        &copy; 2025 <span className="font-semibold">WackLink</span>. All rights reserved.
+      </p>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;
