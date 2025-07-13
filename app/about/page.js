@@ -14,7 +14,7 @@ const About = () => {
 
         <div className="text-gray-700 text-base sm:text-lg space-y-5 leading-relaxed">
           <p>
-            <strong>WackLink</strong> is your modern, free, and powerful URL shortener built for simplicity and performance. Whether you're sharing links with friends, tracking marketing campaigns, or managing hundreds of URLs — WackLink has your back.
+            <strong>WackLink</strong> is your modern, free, and powerful URL shortener built for simplicity and performance. Whether you&apos;re sharing links with friends, tracking marketing campaigns, or managing hundreds of URLs — WackLink has your back.
           </p>
 
           <p>
